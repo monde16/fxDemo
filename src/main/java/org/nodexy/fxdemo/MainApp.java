@@ -29,6 +29,7 @@ public class MainApp extends Application {
         Stage stage = new Stage();
         stage.setTitle("Second Stage");
         stage.setScene(new Scene(new Button("Click Me"), 200, 100));
+        stage.setResizable(false);
         stage.show();
     }
 }
