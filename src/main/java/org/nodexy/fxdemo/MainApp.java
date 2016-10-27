@@ -25,5 +25,10 @@ public class MainApp extends Application {
         primaryStage.setTitle("JavaFX Demo");
         primaryStage.setScene(scene);
         primaryStage.show();
+
+        Stage stage = new Stage();
+        stage.setTitle("Second Stage");
+        stage.setScene(new Scene(new Button("Click Me"), 200, 100));
+        stage.show();
     }
 }
