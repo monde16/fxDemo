@@ -1,0 +1,15 @@
+group 'org.nodexy'
+version '0.1.0'
+
+apply plugin: 'java'
+apply plugin: 'application'
+
+mainClassName='org.nodexy.fxdemo.MainApp'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+}
